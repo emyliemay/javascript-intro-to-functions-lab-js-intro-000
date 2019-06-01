@@ -23,7 +23,7 @@ describe('logShout(string)', function() {
     logShout('hello')
 
     expect(spy).toHaveBeenCalledWith('HELLO')
-    
+
 function logShout(string){
   console.log(string.toUpperCase)
 }
