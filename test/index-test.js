@@ -23,11 +23,12 @@ describe('logShout(string)', function() {
     logShout('hello')
 
     expect(spy).toHaveBeenCalledWith('HELLO')
-
-function logShout(string) {
+    
+function logShout(string){
   console.log(string.toUpperCase)
-  function spyOn("HELLO")
-
+}
+function spy("HELLO") {
+  console.log('HELLO')
 }
 
     console.log.restore()
