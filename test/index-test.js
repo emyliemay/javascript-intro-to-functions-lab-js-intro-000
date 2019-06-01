@@ -24,10 +24,10 @@ describe('logShout(string)', function() {
 
     expect(spy).toHaveBeenCalledWith('HELLO')
 
-function logShout(string){
-  console.log(string.toUpperCase)
+function logShout(hello){
+  console.log(hello.toUpperCase)
 }
-function spy("HELLO") {
+function spy('HELLO') {
   console.log('HELLO')
 }
 
